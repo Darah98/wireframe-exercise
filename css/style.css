@@ -1,3 +1,61 @@
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 60px;
+}
 body{
-    background-color: red;
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+}
+header{
+    background-color: #4a4949;
+}
+header img{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+nav{
+    float: right;
+    margin-top: -68px;
+}
+nav ul{
+    margin-right: 250px;
+    color: white;
+
+}
+main div img{
+    margin: 30px 70px;
+}
+main section div{
+    float: left;
+    width: 30%;
+    margin-top: 0px;
+}
+#scroll{
+    float: right;
+    height: 320px;
+    overflow-y: overlay;
+    margin-top: -417px;
+    width: 400px;
+    margin-right: 100px;
+
+}
+main button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    float: right;
+    margin-right: 370px;
+    margin-top: -80px;
+}
+footer{
+    background-color: #4a4949;
+    padding: 30px;
+}
+button:hover{
+    color: black;
+    background-color: white;
 }
